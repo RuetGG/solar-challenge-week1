@@ -9,10 +9,17 @@ cd solar-challenge-week1
 ```
 
 ### 2. Create Virtual Environment (Windows)
+```bash
 python -m venv .venv
+```
 
 ### 3. Activate Virtual Environment (Windows)
+```bash
 .venv\Scripts\activate
+```
 
 ### 4. Install Depencencies
+```bash
 pip install -r requirements.txt
+```
+    
