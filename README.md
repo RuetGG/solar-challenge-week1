@@ -10,6 +10,8 @@ The analysis includes:
 - Wind distribution patterns
 - Temperature and humidity interaction study
 - Bubble chart visualization linking radiation, temperature, and humidity
+- Cross-country comparison of Benin, Sierra Leone, and Togo with boxplots, summary stats, and ANOVA/Kruskal–Wallis tests.
+- Correlation analysis linking radiation, temperature, and humidity.
 
 ---
 
@@ -43,9 +45,9 @@ pip install pandas numpy matplotlib seaborn plotly windrose
 ### 5. Add you data
 ```bash
 data/
-  ├── benin.csv
-  ├── sierra_leone.csv
-  └── togo.csv
+  ├── benin_raw.csv
+  ├── sierraleone_raw.csv
+  └── togo_raw.csv
   ```
 ### 6. Run the Analysis
 You can either run the notebooks: 
